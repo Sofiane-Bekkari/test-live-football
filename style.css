@@ -32,8 +32,15 @@ a:hover {
 
 /* title */
 .title {
-    padding: 2rem 0;
+    padding: 2rem 1rem;
     font-size: 1.3rem;
+}
+
+/* special name */
+.name {
+ font-weight: 700;
+ color: #1f5869;
+ text-transform: uppercase;
 }
 
 /* frame container */
@@ -53,7 +60,7 @@ a:hover {
 
 /* footer */
 footer {
-    margin-top: 3rem;
+    margin-top: 8rem;
     color: #fff;
 }
 
