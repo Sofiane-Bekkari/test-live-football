@@ -67,3 +67,42 @@ footer {
     letter-spacing: 1px;
     padding-top: 2rem;
 }
+
+/* media query */
+@media screen and (min-width: 768px){
+
+    header {
+        padding: 2rem 2rem;
+    }
+
+   .container {
+       width: 80%;
+   }
+   .frame-card {
+    height: 50vh;
+    } 
+    .footer-content {
+        font-size: 1.1rem;
+    }
+}
+
+/* media query 1000px */
+@media screen and (min-width: 1000px){
+
+    header {
+        padding: 2rem 5rem;
+    }
+      /* disply video flex */
+   .all-cards {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .container {
+        width: 90%;
+    }
+    .card-content {
+        width: 50%;
+        box-sizing: border-box;
+    }
+}
+
