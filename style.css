@@ -1,0 +1,22 @@
+body {
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 960px;
+}
+
+/* title */
+.title {
+    padding: 2rem 0;
+    font-size: 1.3rem;
+}
+
+/* frame container */
+.frame-container {
+  width: 500px;
+  margin: 0 auto;
+  box-shadow: 1px 1px 3px gray;
+  padding: 1rem;
+  border-radius: 5px;
+}
