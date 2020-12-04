@@ -4,19 +4,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Foot Project</title>
+    <!-- style -->
     <link rel="stylesheet" href="style.css">
+    <!-- fontawesome -->
+    <script src="https://kit.fontawesome.com/45f3285f50.js" crossorigin="anonymous"></script>
 </head>
 <body>
+    <!--header with NAVBAR-->
     <header>
-        <div class="logo">
-           <a href="#">AppFoot</a>
+        <div class="logo-div">
+           <a href="#">
+               <img src="./Dzfoot_logo.png" class="logo" alt="logo">
+           </a>
         </div>
-        <div class="option">
-           <a href="#">WatchLive</a>
+        <div class="burger">
+            <button class="burger-btn">
+                <i class="fas fa-list fa-2x"></i>
+            </button>
         </div>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Watch</a></li>
+                    <li><a href="#">Soccer</a></li>
+                    <li><a href="#">Blogs</a></li>
+                </ul>
+            </nav>
     </header>
+     <!--end of header-->
+
     <!-- the main container -->
     <div class="container">
+        <!-- title section -->
         <section>
             <div class="title">
                 <h1>Watch Live Foot</h1>
@@ -24,28 +43,39 @@
                 <p>Hi, <span class="name"> Abdelhak</span> what you want to include as content or layout to improve our website!!</p>
             </div>
         </section>
+        <!-- end title section-->
+        <!-- section cards -->
         <section class="all-cards">
+            <!-- card -->
             <div class="card-content">
                 <h4>Video 1</h4>
                 <div class="frame-container">
                     <iframe class="frame-card"  src="https://www.youtube.com/embed/BEoFSRdkSZQ"  width="500" height="350"     frameborder="0"></iframe>
                 </div>
             </div>
+            <!-- end of card -->
+             <!-- card -->
             <div class="card-content">
                 <h4>Video 2</h4>
                 <div class="frame-container">
                     <iframe class="frame-card"  src="https://www.youtube.com/embed/hdI2bqOjy3c"  width="500" height="350"     frameborder="0"></iframe>
                 </div>
             </div>
+             <!-- end of card -->
+              <!-- card -->
                 <div class="card-content">
                     <h4>Video 3</h4>
                     <div class="frame-container">
                     <iframe class="frame-card"  src="https://www.youtube.com/embed/2b9AqJimM-0"  width="500" height="350"     frameborder="0"></iframe>
                 </div>
             </div>
+             <!-- end of card -->
         </section>
+         <!-- end section cards -->
         <h4>We can add more videos or content here! below</h4>
     </div>
+    <!--END of the container -->
+    <!-- footer -->
     <footer>
         <div class="footer-content">
             copyright &copy; <span id="date"></span> allright reserved

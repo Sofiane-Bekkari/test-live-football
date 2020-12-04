@@ -8,21 +8,73 @@ body {
 
 /* header */
 header {
-    background-color: #1f5869 ;
+    background-color: #fbfbfb ;
     letter-spacing: 2px;
+    position: relative;
     color: #fff;
-    display: flex;
     padding: 2rem 1rem;
-    justify-content: space-between;
+    box-shadow: 1px 1px 8px gray;
 }
+
+/* logo */
+.logo {
+    width: 160px;
+}
+
+/* burger icon */
+.burger {
+    position: absolute;
+    right: 20px;
+    top: 40px;
+    color: #8C52FF;
+    cursor: pointer;
+}
+/* button */
+button {
+    border: none;
+    color: #8C52FF;
+    cursor: pointer;
+    outline: none;
+}
+
+/* navbar */
+
+.navbar {
+    display: none;
+    padding: 0;
+    margin: 0;
+    transition: all 1s ease-in-out;
+}
+
+/* show nav */
+.show-nav {
+    display: block;
+    transform: translateX(0px);
+}
+
+ul {
+    padding: 0;
+    list-style: none;
+}
+li {
+    padding: .8rem 0;
+    margin: 0;
+    border-bottom: solid 1px gray ;
+}
+
 
 a {
     text-decoration: none;
-    color: #fff;
+    color: #8C52FF;
+    padding: 0;
+    font-weight: 600;
+    margin: 0;
+    font-size: 1.2rem;
     transition: all .5s ;
 }
 a:hover {
     letter-spacing: 4px;
+    color: #8c52ffa1;
 }
 /* container */
 .container {
