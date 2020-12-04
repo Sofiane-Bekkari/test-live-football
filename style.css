@@ -134,6 +134,11 @@ footer {
         padding: 2rem 2rem;
     }
 
+    /* burger icon */
+    .burger {
+    right: 30px;
+    }
+
    .container {
        width: 80%;
    }
@@ -151,6 +156,44 @@ footer {
     header {
         padding: 2rem 5rem;
     }
+
+    /* burger icon */
+    .burger {
+       display: none;
+    }
+
+    /* logo */
+    .logo {
+
+    }
+
+    .navbar {
+        display: inline-block;  
+        text-align: center;
+        position: absolute;
+        padding: .5rem;
+        top: -30px;
+        right: 110px;
+        width: 50%;
+    }
+    ul {
+       
+        display: flex;
+        padding: 0;
+        justify-content: center;
+        align-items: center;
+    }
+    li {
+        padding: 3rem 2rem;
+        text-align: center;
+        border-right: solid gray 1px;
+        border-bottom: none;
+    }
+
+    a {
+        font-size: 1.3rem;
+    }
+
       /* disply video flex */
    .all-cards {
         display: flex;
@@ -165,3 +208,46 @@ footer {
     }
 }
 
+/* media query 1200px */
+@media screen and (min-width: 1200px){
+
+    header {
+        padding: 2rem 5rem;
+    }
+
+    /* burger icon */
+    .burger {
+       display: none;
+    }
+
+    /* logo */
+    .logo {
+        padding-left: 5rem;
+    }
+
+    .navbar {
+        display: inline-block;  
+        text-align: center;
+        position: absolute; 
+        padding: .5rem;
+        top: -30px;
+        right: 110px;
+    }
+    ul {
+       
+        display: flex;
+        padding: 0;
+        justify-content: center;
+        align-items: center;
+    }
+    li {
+        padding: 3.1rem;
+        text-align: center;
+        border-right: solid gray 1px;
+        border-bottom: none;
+    }
+
+    a {
+        font-size: 1.3rem;
+    }
+}
