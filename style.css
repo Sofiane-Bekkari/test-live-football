@@ -188,7 +188,7 @@ footer {
         align-items: center;
     }
     li {
-        padding: 3rem 2rem;
+        padding: 2.9rem 2rem;
         text-align: center;
         border-right: solid gray 1px;
         border-bottom: none;
@@ -197,6 +197,11 @@ footer {
     a {
         font-size: 1.3rem;
     }
+
+    /* display hidden */
+    .fa-chevron-down {
+       display: none;
+     }
 
       /* disply video flex */
    .all-cards {
@@ -245,7 +250,7 @@ footer {
         align-items: center;
     }
     li {
-        padding: 3.1rem;
+        padding: 2.9rem;
         text-align: center;
         border-right: solid gray 1px;
         border-bottom: none;
