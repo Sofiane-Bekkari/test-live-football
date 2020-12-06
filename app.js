@@ -10,3 +10,6 @@ const navBar = document.querySelector('.navbar');
 burger.addEventListener('click', function(){
     navBar.classList.toggle('show-nav');
 } );
+
+
+// add functionality to dropdown menu

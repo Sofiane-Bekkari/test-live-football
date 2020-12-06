@@ -84,6 +84,20 @@ a:hover {
    font-size: 1rem;
    color: gray;
 }
+
+/* dropdwon content */
+.dropdown-content a {
+    display: none;
+    padding: 1rem 0;
+    font-size: 1rem;
+    color: #555;
+}
+
+/* active show dropdown */
+.active a {
+    display: block;
+} 
+
 /* container */
 .container {
     margin: 0 auto;
