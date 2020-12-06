@@ -85,6 +85,11 @@ a:hover {
    color: gray;
 }
 
+/* hide chevron */
+.btn-hide {
+    visibility: hidden;
+}
+
 /* dropdwon content */
 .dropdown-content a {
     display: none;

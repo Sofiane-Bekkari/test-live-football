@@ -19,16 +19,20 @@
         </div>
         <div class="burger">
             <button class="burger-btn">
-                <i class="fas fa-list fa-2x"></i>
+                <i class="fas fa-bars fa-2x"></i>
             </button>
         </div>
         <!-- navbar -->
             <nav class="navbar">
-                <!--All list items-->
+                <!--All list items--> 
                 <ul class="list-items">
                     <!--Item -->
-                    <li class="item"><a href="#">Home   <i class="fas fa-chevron-down"> </i></a>      
-                        <div class="dropdown-content active">
+                    <li class="item"><a href="#">Home
+                        <button class="btn-chev">
+                            <i class="fas fa-chevron-down" data-id="home"></i>
+                        </button>   
+                        </a>      
+                        <div class="dropdown-content" id="home">
                             <a href="#">Link1</a>
                             <a href="#">Link2</a>
                             <a href="#">Link3</a>
@@ -36,8 +40,12 @@
                     </li>
                     <!--end item -->
                       <!--Item -->
-                      <li class="item"><a href="#">Home   <i class="fas fa-chevron-down"> </i></a>      
-                        <div class="dropdown-content ">
+                      <li class="item"><a href="#">Watch     
+                        <button class="btn-chev">
+                            <i class="fas fa-chevron-down" data-id="watch"></i>
+                        </button>   
+                      </a>      
+                        <div class="dropdown-content " id="watch">
                             <a href="#">Link1</a>
                             <a href="#">Link2</a>
                             <a href="#">Link3</a>
@@ -45,8 +53,8 @@
                     </li>
                     <!--end item -->
                       <!--Item -->
-                      <li class="item"><a href="#">Home   <i class="fas fa-chevron-down"> </i></a>      
-                        <div class="dropdown-content">
+                      <li class="item"><a href="#">Soccer <button class="btn-down"><i class="fas fa-chevron-down" data-id="soccer"></i></button></i></a>      
+                        <div class="dropdown-content" id="soccer">
                             <a href="#">Link1</a>
                             <a href="#">Link2</a>
                             <a href="#">Link3</a>
@@ -54,8 +62,12 @@
                     </li>
                     <!--end item -->
                       <!--Item -->
-                      <li class="item"><a href="#">Home   <i class="fas fa-chevron-down"> </i></a>      
-                        <div class="dropdown-content">
+                      <li class="item"><a href="#">Live
+                        <button class="btn-chev">
+                            <i class="fas fa-chevron-down" data-id="live"></i>
+                        </button>   
+                      </a>      
+                        <div class="dropdown-content" id="live">
                             <a href="#">Link1</a>
                             <a href="#">Link2</a>
                             <a href="#">Link3</a>
